@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Room Image Map</title>
+</head>
+<body>
+  <h2>Click on the Fan or Bulb</h2>
+  <img src="room.png" usemap="#roommap" alt="Room with fan and bulb" width="800">
+
+  <map name="roommap">
+    <!-- Fan: adjust coords as needed -->
+    <area shape="circle" coords="300,150,60" alt="Fan" onclick="alert('Fan clicked!')" style="cursor: pointer;">
+    
+    <!-- Bulb: adjust coords as needed -->
+    <area shape="circle" coords="650,100,30" alt="Bulb" onclick="alert('Light Bulb clicked!')" style="cursor: pointer;">
+  </map>
+</body>
+</html>
