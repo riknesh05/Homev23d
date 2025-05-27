@@ -1,0 +1,28 @@
+<html><head>
+  <title>Room Image Map</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+  </style>
+</head>
+<body>
+  <h2>Click on the Fan or Light Bulb</h2>
+
+  <!-- Room Image with Image Map -->
+<img src="img.jpg" usemap="#image-map">
+<map name="image-map">
+    <area target="" alt="washing machine" title="washing machine" href="#" coords="22,115,66,64" shape="rect" onclick="alert('washing machine clicked')"></area>
+    <area target="" alt="cooler" title="cooler" href="#" coords="113,64,126,124" shape="rect" onclick="alert('cooler clicked')"></area>
+    <area target="" alt="fridge" title="fridge" href="#" coords="149,77,169,103" shape="rect" onclick="alert('fridge clicked')"></area>
+    <area target="" alt="light" title="light" href="#" coords="225,61,15" shape="circle" onclick="alert('light clicked')"></area>
+</map>
+
+
+</body></html>
